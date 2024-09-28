@@ -1,0 +1,7 @@
+[2024-09-21 12:11:21,548] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2024-09-21 12:11:24,843] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-09-21 12:11:24,848] 96 werkzeug - INFO -  * Debugger PIN: 774-876-830
+[2024-09-21 12:11:25,054] 96 werkzeug - INFO - 192.168.29.95 - - [21/Sep/2024 12:11:25] "GET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-09-21 12:11:25,131] 96 werkzeug - INFO - 192.168.29.95 - - [21/Sep/2024 12:11:25] "GET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-09-21 12:11:25,144] 96 werkzeug - INFO - 192.168.29.95 - - [21/Sep/2024 12:11:25] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-21 12:14:23,740] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\AppData\\Roaming\\Python\\Python312\\site-packages\\pandas\\core\\frame.py', reloading

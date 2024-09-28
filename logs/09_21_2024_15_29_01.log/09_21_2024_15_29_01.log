@@ -1,0 +1,26 @@
+[2024-09-21 15:29:03,063] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2024-09-21 15:29:09,495] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-09-21 15:29:09,505] 96 werkzeug - INFO -  * Debugger PIN: 774-876-830
+[2024-09-21 15:29:26,856] 96 werkzeug - INFO - 192.168.12.76 - - [21/Sep/2024 15:29:26] "GET / HTTP/1.1" 200 -
+[2024-09-21 15:29:35,002] 59 root - INFO - Entered inited_data_ingestion method of data_injestion class.
+[2024-09-21 15:29:35,003] 37 root - INFO - Exporting data from mongodb:
+[2024-09-21 15:29:43,125] 47 root - INFO - Saving the exported data into feature store file path: artifacts
+[2024-09-21 15:29:43,217] 64 root - INFO - Got the data from mongodb.
+[2024-09-21 15:29:43,218] 66 root - INFO - Exeted inited_data_ingestion method of data_injestion class.
+[2024-09-21 15:29:43,219] 46 root - INFO - Entered the initiated data transformation method of data transformation class.
+[2024-09-21 15:29:43,454] 43 root - INFO - Entered the save_object method of MainUtils class
+[2024-09-21 15:29:43,459] 51 root - INFO - Exited the save_object method of MainUtils class
+[2024-09-21 15:29:43,461] 101 root - INFO - Splitting training and testing input and target feature
+[2024-09-21 15:29:43,461] 108 root - INFO - Extracting model config file path
+[2024-09-21 15:29:43,461] 110 root - INFO - Extracting model config file path
+[2024-09-21 15:31:04,495] 133 root - INFO - Best found model on both training and testing dataset
+[2024-09-21 15:31:04,495] 135 root - INFO - Saving model at path: artifacts\model.pkl
+[2024-09-21 15:31:04,496] 43 root - INFO - Entered the save_object method of MainUtils class
+[2024-09-21 15:31:04,504] 51 root - INFO - Exited the save_object method of MainUtils class
+[2024-09-21 15:31:04,507] 96 werkzeug - INFO - 192.168.12.76 - - [21/Sep/2024 15:31:04] "GET /train HTTP/1.1" 200 -
+[2024-09-21 15:31:18,280] 96 werkzeug - INFO - 192.168.12.76 - - [21/Sep/2024 15:31:18] "GET /predict HTTP/1.1" 200 -
+[2024-09-21 15:31:18,337] 96 werkzeug - INFO - 192.168.12.76 - - [21/Sep/2024 15:31:18] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[2024-09-21 15:31:18,429] 96 werkzeug - INFO - 192.168.12.76 - - [21/Sep/2024 15:31:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2024-09-21 15:31:27,599] 62 root - INFO - Prediction is completed.
+[2024-09-21 15:31:27,600] 30 root - INFO - Prediction completed. Downloading the prediction file.
+[2024-09-21 15:31:27,622] 96 werkzeug - INFO - 192.168.12.76 - - [21/Sep/2024 15:31:27] "POST /predict HTTP/1.1" 200 -

@@ -1,0 +1,14 @@
+[2024-09-21 14:59:00,575] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2024-09-21 14:59:09,531] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-09-21 14:59:09,541] 96 werkzeug - INFO -  * Debugger PIN: 774-876-830
+[2024-09-21 15:07:38,043] 96 werkzeug - INFO - 192.168.12.76 - - [21/Sep/2024 15:07:38] "GET / HTTP/1.1" 200 -
+[2024-09-21 15:07:38,369] 96 werkzeug - INFO - 192.168.12.76 - - [21/Sep/2024 15:07:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-09-21 15:07:50,542] 59 root - INFO - Entered inited_data_ingestion method of data_injestion class.
+[2024-09-21 15:07:50,542] 37 root - INFO - Exporting data from mongodb:
+[2024-09-21 15:07:52,075] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\AppData\\Roaming\\Python\\Python312\\site-packages\\pymongo\\pyopenssl_context.py', reloading
+[2024-09-21 15:07:52,840] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\AppData\\Roaming\\Python\\Python312\\site-packages\\pymongo\\settings.py', reloading
+[2024-09-21 15:07:52,856] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\AppData\\Roaming\\Python\\Python312\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+[2024-09-21 15:07:52,860] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\AppData\\Roaming\\Python\\Python312\\site-packages\\werkzeug\\serving.py', reloading
+[2024-09-21 15:07:52,860] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\anaconda3\\Lib\\http\\server.py', reloading
+[2024-09-21 15:07:52,860] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\anaconda3\\Lib\\socketserver.py', reloading
+[2024-09-21 15:07:52,871] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\anaconda3\\Lib\\threading.py', reloading

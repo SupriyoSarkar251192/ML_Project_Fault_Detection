@@ -1,0 +1,5 @@
+[2024-09-21 15:21:32,769] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2024-09-21 15:21:39,251] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-09-21 15:21:39,266] 96 werkzeug - INFO -  * Debugger PIN: 774-876-830
+[2024-09-21 15:21:55,932] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\anaconda3\\Lib\\site-packages\\_pytest\\compat.py', reloading
+[2024-09-21 15:21:55,984] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\anaconda3\\Lib\\site-packages\\_pytest\\junitxml.py', reloading

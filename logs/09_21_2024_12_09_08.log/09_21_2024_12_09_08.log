@@ -1,0 +1,20 @@
+[2024-09-21 12:09:08,656] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2024-09-21 12:09:11,756] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-09-21 12:09:11,761] 96 werkzeug - INFO -  * Debugger PIN: 774-876-830
+[2024-09-21 12:10:55,700] 96 werkzeug - INFO - 192.168.29.95 - - [21/Sep/2024 12:10:55] "GET / HTTP/1.1" 200 -
+[2024-09-21 12:10:55,962] 96 werkzeug - INFO - 192.168.29.95 - - [21/Sep/2024 12:10:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-09-21 12:11:16,182] 59 root - INFO - Entered inited_data_ingestion method of data_injestion class.
+[2024-09-21 12:11:16,183] 37 root - INFO - Exporting data from mongodb:
+[2024-09-21 12:11:17,223] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\AppData\\Roaming\\Python\\Python312\\site-packages\\pymongo\\pyopenssl_context.py', reloading
+[2024-09-21 12:11:17,620] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\AppData\\Roaming\\Python\\Python312\\site-packages\\pymongo\\settings.py', reloading
+[2024-09-21 12:11:17,640] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\AppData\\Roaming\\Python\\Python312\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+[2024-09-21 12:11:17,655] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\AppData\\Roaming\\Python\\Python312\\site-packages\\werkzeug\\serving.py', reloading
+[2024-09-21 12:11:17,657] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\anaconda3\\Lib\\http\\server.py', reloading
+[2024-09-21 12:11:17,658] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\anaconda3\\Lib\\socketserver.py', reloading
+[2024-09-21 12:11:17,662] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\anaconda3\\Lib\\threading.py', reloading
+[2024-09-21 12:11:19,604] 47 root - INFO - Saving the exported data into feature store file path: artifacts
+[2024-09-21 12:11:19,662] 64 root - INFO - Got the data from mongodb.
+[2024-09-21 12:11:19,663] 66 root - INFO - Exeted inited_data_ingestion method of data_injestion class.
+[2024-09-21 12:11:19,663] 46 root - INFO - Entered the initiated data transformation method of data transformation class.
+[2024-09-21 12:11:19,735] 96 werkzeug - INFO - 192.168.29.95 - - [21/Sep/2024 12:11:19] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2024-09-21 12:11:19,855] 96 werkzeug - INFO - 192.168.29.95 - - [21/Sep/2024 12:11:19] "GET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -

@@ -33,7 +33,7 @@ class DataTransformation:
         except Exception as e:
             raise CustomException(e, sys)
         
-    def get_data_transformer_object(self, data: pd.DataFrame): # create pipeline for data imputation and scaling.
+    def get_data_transformer_object(self): # create pipeline for data imputation and scaling.
         try:
             imputer_step = ('imputer', SimpleImputer(strategy='constant', fill_value=0))
             scaler_step = ('scaler', RobustScaler())

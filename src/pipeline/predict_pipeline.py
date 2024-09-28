@@ -27,7 +27,7 @@ class PredictionPipeline:
             os.makedirs(pred_file_input_dir, exist_ok=True) # create artifact directory for prediction.
             
             input_csv_file = self.request.files['file']  # getting the file uploaded
-            pred_file_path = os.path.join(pred_file_input_dir, input_csv_file.filename()) # creating the file path of prediction.
+            pred_file_path = os.path.join(pred_file_input_dir, input_csv_file.filename) # creating the file path of prediction.
             
             input_csv_file.save(pred_file_path) # saving the uploaded data into csv.
             

@@ -1,0 +1,28 @@
+[2024-09-21 15:07:59,674] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2024-09-21 15:08:05,650] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-09-21 15:08:05,665] 96 werkzeug - INFO -  * Debugger PIN: 774-876-830
+[2024-09-21 15:08:05,861] 59 root - INFO - Entered inited_data_ingestion method of data_injestion class.
+[2024-09-21 15:08:05,861] 37 root - INFO - Exporting data from mongodb:
+[2024-09-21 15:08:11,019] 47 root - INFO - Saving the exported data into feature store file path: artifacts
+[2024-09-21 15:08:11,189] 64 root - INFO - Got the data from mongodb.
+[2024-09-21 15:08:11,189] 66 root - INFO - Exeted inited_data_ingestion method of data_injestion class.
+[2024-09-21 15:08:11,194] 46 root - INFO - Entered the initiated data transformation method of data transformation class.
+[2024-09-21 15:08:11,644] 43 root - INFO - Entered the save_object method of MainUtils class
+[2024-09-21 15:08:11,649] 51 root - INFO - Exited the save_object method of MainUtils class
+[2024-09-21 15:08:11,655] 101 root - INFO - Splitting training and testing input and target feature
+[2024-09-21 15:08:11,655] 108 root - INFO - Extracting model config file path
+[2024-09-21 15:08:11,655] 110 root - INFO - Extracting model config file path
+[2024-09-21 15:09:48,588] 133 root - INFO - Best found model on both training and testing dataset
+[2024-09-21 15:09:48,588] 135 root - INFO - Saving model at path: artifacts\model.pkl
+[2024-09-21 15:09:48,593] 43 root - INFO - Entered the save_object method of MainUtils class
+[2024-09-21 15:09:48,598] 51 root - INFO - Exited the save_object method of MainUtils class
+[2024-09-21 15:09:48,603] 96 werkzeug - INFO - 192.168.12.76 - - [21/Sep/2024 15:09:48] "GET /train HTTP/1.1" 200 -
+[2024-09-21 15:10:09,466] 96 werkzeug - INFO - 192.168.12.76 - - [21/Sep/2024 15:10:09] "GET /predict HTTP/1.1" 200 -
+[2024-09-21 15:10:09,531] 96 werkzeug - INFO - 192.168.12.76 - - [21/Sep/2024 15:10:09] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[2024-09-21 15:10:09,686] 96 werkzeug - INFO - 192.168.12.76 - - [21/Sep/2024 15:10:09] "GET /static/css/style.css HTTP/1.1" 200 -
+[2024-09-21 15:10:37,908] 96 werkzeug - INFO - 192.168.12.76 - - [21/Sep/2024 15:10:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-09-21 15:10:37,978] 96 werkzeug - INFO - 192.168.12.76 - - [21/Sep/2024 15:10:37] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-09-21 15:10:37,998] 96 werkzeug - INFO - 192.168.12.76 - - [21/Sep/2024 15:10:37] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-09-21 15:10:38,128] 96 werkzeug - INFO - 192.168.12.76 - - [21/Sep/2024 15:10:38] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-09-21 15:10:38,178] 96 werkzeug - INFO - 192.168.12.76 - - [21/Sep/2024 15:10:38] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-21 15:19:46,790] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\supri\\anaconda3\\Lib\\logging\\__init__.py', reloading

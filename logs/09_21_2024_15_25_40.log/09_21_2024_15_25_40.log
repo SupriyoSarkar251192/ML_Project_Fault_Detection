@@ -1,0 +1,6 @@
+[2024-09-21 15:25:41,331] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2024-09-21 15:25:48,297] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-09-21 15:25:48,322] 96 werkzeug - INFO -  * Debugger PIN: 774-876-830
+[2024-09-21 15:28:31,880] 96 werkzeug - INFO -  * Detected change in 'C:\\Project Sensor Fault\\src\\pipeline\\predict_pipeline.py', reloading
+[2024-09-21 15:28:31,880] 96 werkzeug - INFO -  * Detected change in 'C:\\Project Sensor Fault\\src\\pipeline\\predict_pipeline.py', reloading
+[2024-09-21 15:28:31,880] 96 werkzeug - INFO -  * Detected change in 'C:\\Project Sensor Fault\\src\\pipeline\\predict_pipeline.py', reloading
